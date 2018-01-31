@@ -1,16 +1,7 @@
 {
-  "main.css": "static/css/main.2be5e2fa.css",
-  "main.css.map": "static/css/main.2be5e2fa.css.map",
-  "main.js": "static/js/main.463d7188.js",
-  "main.js.map": "static/js/main.463d7188.js.map",
-  "static\\media\\Background.jpg": "static/media/Background.a08e0abb.jpg",
-  "static\\media\\availablemobile.png": "static/media/availablemobile.c44c3d1d.png",
-  "static\\media\\close-x.png": "static/media/close-x.edeef416.png",
-  "static\\media\\event_calendar.png": "static/media/event_calendar.c35115ba.png",
-  "static\\media\\featuremobile.png": "static/media/featuremobile.c02dbef9.png",
-  "static\\media\\icomoon.eot?3zt34b": "static/media/icomoon.f1c2dae0.eot",
-  "static\\media\\icomoon.svg?3zt34b": "static/media/icomoon.027292e8.svg",
-  "static\\media\\icomoon.ttf?3zt34b": "static/media/icomoon.4267c8ce.ttf",
-  "static\\media\\icomoon.woff?3zt34b": "static/media/icomoon.d9b31276.woff",
-  "static\\media\\main-image1.png": "static/media/main-image1.5732ed33.png"
+  "main.css": "static/css/main.c17080f1.css",
+  "main.css.map": "static/css/main.c17080f1.css.map",
+  "main.js": "static/js/main.ee7b2412.js",
+  "main.js.map": "static/js/main.ee7b2412.js.map",
+  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
 }
