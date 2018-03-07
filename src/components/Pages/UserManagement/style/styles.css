@@ -1,0 +1,220 @@
+.n-mainTable .card-header .title{
+  padding: 1.094rem 1.25rem;
+}
+.n-mainTable .card-header img{
+  vertical-align: bottom;
+  padding-bottom: 4px;
+}
+.search-func{
+  margin-bottom: 20px;
+}
+.search-func .search-box .input-group{
+  width: 304px;
+  height: 36px;
+}
+.search-func .search-box .input-group .form-control{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #dedede;
+  border: none;
+}
+.search-func .search-box .input-group .form-control::placeholder{
+  font-size: 12px;
+  padding-left: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+.search-func .search-box .input-group .input-group-btn{
+  width: 90px;
+}
+.search-func .search-box .input-group .input-group-btn .btn-secondary{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  background: #c4c4c4;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.search-func .filter-box{
+  text-align: right;
+}
+.search-func .filter-box .filter-group, .search-func .filter-box .filter{
+  text-align: left;
+}
+.n-main-table .table-group, .n-main-table .table-member{
+  text-align: center;
+}
+.n-main-table .table-email, .n-main-table .table-group, .n-main-table .table-member{
+  padding-top: 18px;
+}
+.n-main-table .table-group{
+  position: relative;
+  text-transform: capitalize;
+}
+.n-main-table .table-group span{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+  position: absolute;
+  right: 13px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffa37c;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 2;
+  border: 2px solid #fff;
+  line-height: 25px;
+}
+.n-main-table .table-group p{
+  position: absolute;
+  background: #ffa37c;
+  z-index: 1;
+  top: 12px;
+  right: -90px;
+  width: 138px;
+  padding: 36px 10px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 26px;
+  color: #fff;
+}
+.n-main-table .table-member{
+  text-transform: uppercase;
+}
+.n-table-pagination{
+  position: relative;
+}
+.pagination .page-link{
+  padding: 0 8px;
+  border: none;
+  line-height: 40px;
+  color: #ff9871;
+  font-size: 18px;
+}
+.pagination .page-link:focus, .pagination .page-link:hover{
+  background-color: transparent;
+  color: #000 !important;
+  font-weight: bold;
+}
+.pagination .page-link img{
+  width: 12px;
+}
+.table-show{
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 18px;
+  color: #ff9871;  
+  display: flex;
+}
+.table-show span{ 
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-right: 6px;
+}
+.table-show ul{
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+}
+.table-show ul li{
+  list-style-type: none;
+  padding-left: 12px;
+  font-weight: bold;
+}
+.table-show ul li:focus, .table-show ul li:hover{
+  color: #000;  
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1072px){
+  .n-main-table .table-group{
+    text-align: left;
+  }
+  .n-main-table .table-group span{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 926px){
+  .n-mainTable .search-box, .n-mainTable .filter-box{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .n-mainTable .search-box{
+    margin-bottom: 10px;
+  }  
+  .search-func .search-box .input-group{
+    width: 100%;
+  }
+  .search-func .filter-box .filter-group, .search-func .filter-box .filter{
+    width: 45% !important;
+    margin: 0 !important;
+  }
+  .search-func .filter-box .filter-group{
+    margin-right: 5% !important;
+  }
+  .search-func .filter-box .filter{
+    margin-left: 5% !important;
+  }
+  .search-func .btn-group .dropdown-comment{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 860px){
+  .n-mainTable .n-main-table tbody tr td:first-child{
+    min-width: 216px;
+  }
+  .n-main-table .table-email{
+    min-width: 229px;
+  }
+  .n-main-table .table-group{
+    min-width: 126px;
+  }
+  .n-main-table .table-member{
+    min-width: 126px;
+  }
+  .n-mainTable .n-main-table{
+    display: block;   
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 790px){
+  .table-show{
+    position: inherit;
+    justify-content: center;
+  }
+  .n-table-pagination .pagination{
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 560px){
+  .search-func .filter-box .filter-group, .search-func .filter-box .filter{
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .search-func .filter-box .filter-group{
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width: 532px){
+  .n-mainTable{
+    padding: 46px 10px;
+  }  
+}
+@media screen and (max-width: 518px){
+  .search-func .filter-box .filter-group{
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,216 @@
+.serviceTimes .form-control{
+  height: 50px;
+  text-align: center;
+  border-radius: 0;
+}
+.p20{
+  padding: 0 20px;
+  text-align: center
+}
+.border2{
+  border-bottom: 2px solid #f2f2f2;
+}
+.serviceDays{
+  margin-top: 16px;
+  padding: 0 30px 50px;
+}
+.st-dropdown{
+  display: flex;
+  padding: 30px 30px 0;
+}
+.st-dropdown .st-show{
+  margin-bottom: 0;
+  line-height: 34px;
+  margin-right: 10px;
+}
+.serviceTimes .card{
+  border: 2px solid #f2f2f2;
+  box-shadow: none;
+}
+.serviceTimes .card-header{
+  display: flex;  
+  border-bottom: none;
+}
+.serviceTimes .title{
+  border-bottom: 2px solid #f2f2f2;
+}
+.serviceTimes .title, .serviceTimes .nameService-detail{
+  min-width: 50%;
+}
+.serviceTimes .startTime, .serviceTimes .endTime{
+  min-width: 20%;
+}
+.serviceTimes .action{
+  min-width: 10%;
+}
+.serviceTimes .st-border{
+  border-left: 2px solid #f2f2f2;
+  text-align: center;
+  border-bottom: 2px solid #f2f2f2;
+}
+.serviceTimes .st-title{
+  position: relative;
+}
+.serviceTimes .st-title .btn-red{
+  top: 0;
+}
+.serviceTimes .card-header p{
+  letter-spacing: 0;
+}
+.serviceTimes .card-header .title p{
+  margin-left: 26px;
+}
+.serviceTimes .card-block{
+  padding: 20px 0;
+}
+.serviceTimes .st-card-detail{
+  padding-top: 20px;
+  display: flex;  
+}
+.serviceTimes .st-card-detail:first-child{
+  padding-top: 0px;
+}
+
+.serviceTimes .TimePicker{
+  border: 1px solid rgba(0,0,0,.15);
+}
+.serviceTimes .TimePicker input{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.serviceTimes .TimePicker > div{
+  left: 50%;
+  transform: translate(-50%,0);
+  color: #464a4c !important;
+}
+.serviceTimes .TimePicker hr{
+  display: none;
+}
+.serviceTimes .nameService-detail .form-control{
+  text-align: left;
+}
+.serviceTimes .action button{
+  height: 100%;
+  width: 48px;
+  border: none;
+  background: #fe9e6f;
+  color: #fff;
+  cursor: pointer;
+}
+.serviceTimes .st-update-btn{
+  text-align: center;
+  padding: 40px 0;
+}
+.serviceTimes .st-update-btn button{
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 4em;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  width: 178px;
+  height: 38px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.serviceTimes .st-update-btn .st-update{
+  background: linear-gradient(180deg,#feaf78 0,#fe8563 0,#fc8362 0,#feaf78 0,#f57754);
+  margin-right: 18px;
+}
+.serviceTimes .st-update-btn .st-cancel{
+  background-color: transparent;
+  border: 3px solid #fe9168;
+  color: #fe9168;
+}
+
+/* Monday Services */
+.mon-detail .nameService-detail{
+  padding-top: 0;
+}
+
+/* Tuesday Services */
+.TueServices .st-title .btn-red{
+  width: 192.47px;
+}
+.tue-topdetail{
+  display: flex;
+  margin-bottom: 16px;
+}
+.tue-topdetail .startTime, .tue-topdetail .endTime{
+  min-width: 25%;
+}
+.tue-topdetail .nameService-detail{
+  padding-left: 0;
+}
+.tue-topdetail .endTime{
+  padding-right: 0;
+}
+
+/* Wednesday Services */
+.wedServices .card-block p{
+  font-style: italic;
+  font-size: 18px;
+  color: #adadad;
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+@media screen and (max-width: 990px){
+  /* .serviceTimes .card{
+    overflow-x: scroll;    
+  } */
+  .serviceTimes .title, .serviceTimes .nameService-detail{
+    min-width: 405.5px;
+  }
+  .serviceTimes .startTime, .serviceTimes .endTime{
+    min-width: 161px;
+  }
+  .serviceTimes .action{
+    min-width: 80.5px;
+  }
+}
+@media screen and (max-width: 910px){
+  .tue-topdetail{
+    display: block;
+  }
+  .tue-topdetail .startTime, .tue-topdetail .endTime{
+    display: inline-block;
+    min-width: 50%;
+  }
+  .tue-topdetail .nameService-detail{
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
+  .tue-topdetail .startTime{
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 664px){
+  .tue-topdetail .startTime, .tue-topdetail .endTime{
+    display: block;
+  }
+  .tue-topdetail .startTime{
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
+  .tue-topdetail .endTime{
+    padding-left: 0;
+  }
+  .tue-topdetail .nameService-detail{
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 574px){
+  .serviceTimes .st-title .btn-red{
+    position: inherit;
+    margin-bottom: 16px;
+    width: 100%;
+    right: 0;
+  }
+  .serviceTimes .st-update-btn .st-update{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+}

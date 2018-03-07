@@ -1,0 +1,531 @@
+/* @import url(http://weloveiconfonts.com/api/?family=entypo); */
+
+.ChurchInfo, .contactInfo, .socialmedia{
+  padding: 38px 28px;
+  border-bottom: 2px solid #eceded;
+}
+.churchInfo-detail, .contactInfo-detail{
+  padding: 14px 22px 0;
+}
+.churchInfo-detail .form-control, 
+.contactInfo-detail .form-control,
+.social-input .form-control,
+.contactInfo-Address .ci-state{
+  height: 50px;
+}
+.col-form-label{
+  font-size: 18px;
+  font-weight: bold;
+}
+.ChurchInfo p, .contactInfo p, .socialmedia p{
+  font-size: 22px;
+  color: #fe9369;
+}
+
+.form-control::placeholder{
+  font-style: italic;
+}
+
+/* Church Information */
+
+.churchInfo-detail .churchInfo-desc{
+  display: flex;
+  margin-top: 24px;
+}
+.churchInfo-detail .churchInfo-desc .col-form-label{
+  width: 14.8%;
+}
+.churchInfo-detail .churchInfo-desc .form-control{
+  height: 200px;
+  padding: 18px 16px;
+}
+.churchInfo-detail .churchInfo-website .col-form-label{
+  padding-right: 0;
+}
+
+/* Contact Information */
+.contactInfo-phone, .contactInfo-Address{
+  display: flex;
+}
+.contactInfo-detail .row{
+  width: 100%;
+}
+.contactInfo-phone .col-form-label, .contactInfo-Address .col-form-label{
+  width: 14.5%;
+}
+.contactInfo-detail .contactInfo-Address .streetAddr1{
+  margin-bottom: 16px;
+}
+.contactInfo-Address .ci-state{
+  width: 100%;
+}
+.contactInfo-Address .ci-state .ci-stateBtn{
+  text-align: left;
+  width: 100%;
+}
+.contactInfo-Address .ci-state .ci-stateBtn::after{
+  display: none;
+  text-align: right;
+}
+.contactInfo-Address .ci-state .btn .entypo-down-open-big::before {
+  /* font-family: 'entypo', sans-serif; */
+  font-style: normal;
+  font-size: 22px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  color: #ff9871;
+}
+.contactInfo-Address .cityState, .contactInfo-Address .zipCountry{
+  margin: 0;  
+}
+.contactInfo-Address .cityState .btn, .contactInfo-Address .btn{
+  font-style: italic;
+  position: relative;
+}
+.contactInfo-Address .cityState{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Social Media */
+
+.socialmedia .input-group-btn img{
+  width: 50px;
+  height: 50px;
+}
+.social-bottom{
+  padding: 0 22px;
+  margin-top: 42px;
+}
+.social-bottom .social-update-btn{
+  text-align: center;
+}
+.social-bottom .social-update-btn button{
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 4em;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  width: 178px;
+  height: 38px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.social-bottom .social-update-btn .social-update{
+  background: linear-gradient(180deg,#feaf78 0,#fe8563 0,#fc8362 0,#feaf78 0,#f57754);
+  margin-right: 18px;
+}
+.social-bottom .social-update-btn .social-cancel{
+  background-color: transparent;
+  border: 3px solid #fe9168;
+  color: #fe9168;
+}
+.social-bottom .social-update-btn p{
+  color: #000;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.social-bottom .card .card-header .title{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 26px;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+.social-bottom .btn-red{
+  width: 178px;    
+}
+.social-bottom .card-block .social-main-table .table-email{
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+.social-bottom .card-block .social-main-table .table-group{
+  text-align: center;
+}
+.social-bottom .card-block .social-main-table .table-group a{
+  font-size: 18px;
+  color: #47cdd9;
+}
+
+/*  AdminPanelEdit  */
+
+.adminPanelEdit{
+  padding: 48px 50px;
+}
+.adminPanelEdit .card-header .title{
+  line-height: 60px;
+}
+.adminPanelEdit .card-header .title p{
+  margin-left: 30px;
+}
+.adminPanelEdit .btn-red{
+  width: 180px;
+}
+.adminPanelEdit table tbody tr td:first-child{
+  text-align: left;
+}
+.adminPanelEdit table tbody tr td{
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+}
+.adminPanelEdit table tbody tr td input{
+  font-size: 16px;
+}
+.adminPanelEdit table tbody tr td .nameEdit{
+  width: 94px;
+  margin-left: 22px;
+}
+.adminPanelEdit table tbody tr td .emailEdit{
+  padding: 0 10px;
+  width: 200px;
+}
+.adminPanelEdit table tbody tr td .phoneEdit{
+  width: 114px;
+}
+.adminPanelEdit .table-group span, .adminPanelEdit .table-action span{
+  color: #47cdd9;
+}
+.adminPanelEdit table tbody tr .table-action{
+  line-height: 19px;
+}
+.adminPanelEdit table tbody tr .table-action span{
+  display: block;
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+/*  AdminPanelAdd  */
+.adminPanel_add{
+  margin-top: 38px;
+}
+.adminPanel_add .search-func .savebtn{
+  position: inherit;
+  margin: 0 auto;
+  margin-top: 52px;
+}
+.adminPanel_add .search-box p{
+  font-style: italic;
+  color: #a9a9a9;
+  font-size: 14px;
+  margin-top: 8px;
+}
+/* --AdminPanel SearchBox--- */
+.adminPanel_add .search-box .react-autosuggest__input{
+  height: 100%;
+  width: 213px;
+  background: #dedede;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 16px;  
+  font-size: 14px;
+  color: #736f6f;
+}
+.adminPanel_add .search-box .react-autosuggest__input::placeholder{
+  color: #fff;
+  font-size: 14px;
+}
+.adminPanel_add .search-box .react-autosuggest__suggestions-container--open{
+  width: 142%;
+  background: #8a8a8a;
+  padding: 20px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -12px;
+}
+.adminPanel_add .search-box .react-autosuggest__suggestions-container--open ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.adminPanel_add .search-box .react-autosuggest__suggestions-container--open ul li{
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.adminPanel_add .search-box .react-autosuggest__suggestions-container--open ul li:hover{
+  color: #8a8a8a;
+}
+.adminPanel_add .search-box .react-autosuggest__input--focused {
+  outline: none;
+}
+.adminPanel_add .search-box .react-autosuggest__suggestion--highlighted {
+  background-color: rgb(253, 249, 249);
+}
+/* --AdminPanel SearchBox--- */
+.adminPanel_add .apa-selected-user{
+  padding: 0 40px;
+}
+.adminPanel_add .apa-selected-user p{
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 0;
+}
+.adminPanel_add .apa-selected-user .apas_name span{
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+.adminPanel_add .apa-selected-user .apas_email{
+  margin-bottom: 42px;
+}
+.adminPanel_add .apa-selected-user .row{
+  margin: 0;
+}
+.adminPanel_add .apa-selected-user .apas_inputs{
+  position: relative;
+}
+.adminPanel_add .apa-selected-user .apas_inputs span{
+  position: absolute;
+  top: -26px;
+  font-size: 12px;
+  font-weight: bold;
+  left: 10px;
+}
+.adminPanel_add .apa-selected-user .apas_inputs .form-control{
+  height: 50px;
+  border-radius: 0;
+  text-align: center;
+}
+.adminPanel_add .apa-selected-user .apas_inputs .form-control::placeholder{
+  font-size: 15px;
+}
+.adminPanel_add .apa-selected-user .apas_inputs .apas-pnumber{
+  max-width: 64%;
+  margin-left: auto;
+}
+
+.adminPanel_add .apa-permission{
+  font-size: 18px;
+}
+.adminPanel_add .apa-permission p{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.adminPanel_add .apa-permission .checkBox .form-check-label{
+  cursor: pointer;
+}
+.adminPanel_add .apa-permission .checkBox .form-check-input{
+  width: 26px;
+  height: 26px;
+  vertical-align: bottom;
+  margin-right: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1324px){
+
+  /* Church Information Responsive */
+
+  .churchInfo-detail .col-form-label{
+    font-size: 16px;
+  }
+
+  /* Contact Information */
+
+  .churchInfo-detail .form-control::placeholder{
+    font-size: 14px;
+  }
+  .churchInfo-detail .churchInfo-email .col-form-label, .churchInfo-detail .churchInfo-website .col-form-label{
+    padding-top: 0;
+  }
+  .contactInfo-detail .row{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 996px){
+  /* Church Information Responsive */
+  .churchInfo-detail .churchInfo-desc .col-form-label{
+    width: 24%;
+  }
+}
+@media screen and (max-width: 992px){
+  /*  AdminPanelAdd  */
+  .adminPanel_add .search-box{
+    margin-bottom: 20px;
+  }
+  .adminPanel_add .apa-selected-user{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1004px){
+  /*  AdminPanelEdit  */
+  .adminPanelEdit .adminPanel-table{
+    display: block;
+    overflow-x: auto;
+    border: none;
+  }
+  .adminPanelEdit table tbody tr td:first-child{
+    min-width: 186px
+  }
+  .adminPanelEdit table tbody tr .table-email{
+    min-width: 206px;
+  }
+  .adminPanelEdit table tbody tr .table-phonenumber{
+    min-width: 141px;
+  }
+  .adminPanelEdit table tbody tr .table-group{
+    min-width: 123px;
+  }
+  .adminPanelEdit table tbody tr .table-action{
+    min-width: 79px;
+  }
+}
+
+@media screen and (max-width: 810px){
+
+  /* Social Media */
+  .social-input .input-group .form-control::placeholder{
+    font-size: 14px;
+  }  
+  .social-bottom .card-block .social-main-table{
+    display: block;
+    overflow-x: auto;
+  }
+  .social-bottom .card-block tbody tr td:first-child{
+    min-width: 194px;
+  }
+  .social-bottom .card-block .table-email{
+    min-width: 239px;
+  }
+  .social-bottom .card-block .table-group{
+    min-width: 132px;
+  }
+}
+@media screen and (max-width: 767px){
+
+  /* Church Information Responsive */
+  .churchInfo-detail .churchInfo-desc{
+    display: block;
+  }
+  .contactInfo-detail .ci-areaCode{
+    margin-bottom: 16px;
+  }
+
+  /* Contact Information */
+
+  .contactInfo-Address .cityState .form-control, .contactInfo-Address .zipCountry .form-control{
+    margin-bottom: 16px;
+  }
+  .contactInfo-phone, .contactInfo-Address{
+    display: block;
+  }
+  .ci-d-content{
+    padding: 0;
+  }
+
+  /* Social Media */
+  .social-input .input-group{
+    padding: 0 22px;
+  }
+  .social-input .input-group:first-child{
+    margin-bottom: 16px;
+  }
+  .social-input .input-group .form-control::placeholder{
+    font-size: 16px;
+  }
+  /* AddAdminEdit */
+  .adminPanel_add .apa-selected-user .apas_inputs .apas-pnumber{
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 577px){
+
+  /* Social Media */
+  .social-bottom .social-update-btn .social-update{
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  /*  AdminPanelEdit  */
+  .adminPanelEdit .btn-red{
+    width: auto;
+  }
+  /*  AdminPanelAdd  */
+  .adminPanel_add .search-func .savebtn{
+    width: 180px;
+  }
+}
+@media screen and (max-width: 570px){
+
+  /* Church Information Responsive */
+  .churchInfo-detail .churchInfo-desc .col-form-label{
+    width: 54%;
+  }
+}
+@media screen and (max-width: 538px){
+  /* Social Media */
+  .social-bottom .btn-red{
+    width: auto;
+  }
+  /*  AdminPanelEdit  */
+  .adminPanelEdit{
+    padding: 48px 20px;
+  }
+}
+@media screen and (max-width: 434px){
+
+  /* Social Media */
+  .social-input .input-group .form-control::placeholder{
+    font-size: 14px;
+  }
+  .social-input .input-group{
+    padding: 0;
+  }
+  .social-bottom{
+    padding: 0;
+  }
+  .social-bottom .social-update-btn .social-update{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 396px){
+
+  /* Church Information Responsive */
+  .churchInfo-detail, .contactInfo-detail{
+    padding: 14px 0px;
+  }
+  .churchInfo-detail .row, .churchInfo-detail .churchInfo-desc{
+    display: block
+  }
+  .churchInfo-detail .churchInfo-desc{
+    margin-top: 0;
+  }
+  .churchInfo-detail .row .col-form-label, .churchInfo-detail .col-9{
+    max-width: 100%;
+  }
+  /* Social Media */
+  .social-input .input-group .form-control::placeholder{
+    font-size: 11px;
+  }
+  .social-bottom .social-update-btn p{
+    font-size: 16px;
+  }
+  .social-bottom .card .card-header .title{
+    font-size: 14px;
+  }
+  /*  AdminPanelEdit  */
+  .adminPanelEdit .card-header .title p{
+    margin-left: 8px;
+    width: 38%;
+    line-height: 19px;
+    font-size: 14px;
+    text-align: center;
+    padding: 11px 0;
+  }
+  /*  AdminPanelAdd  */
+  .adminPanel_add .apa-permission{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,572 @@
+.up-detail{
+  background-color: #fff;
+  border-radius: 30px;
+  /* padding: 32px 149px 76px 92px; */
+  padding: 32px 92px 76px;
+}
+.up-detail .swiper-button-prev{
+  left: 0;
+}
+.up-detail .swiper-button-next{
+  right: 14px;
+}
+.up-detail .back{
+  top: 30px;
+  left: 32px;
+}
+.up-detail .back button{
+  color: #47cdd9;
+  border-bottom: 1px solid #47cdd9;
+  font-weight: bold;
+  font-size: 14px;
+}
+.up-detail .unsubscribe{
+  position: absolute;
+  right: 32px;
+  top: 29px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #47cdd9;
+  color: #47cdd9;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
+.up-detail .unsubscribe p{
+  margin-bottom: 0;
+}
+.up-detail .avatar{
+  text-align: center;
+}
+.up-detail .avatar img{
+  margin-top: -64px;
+}
+.up-detail .avatar p{
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 46px;
+}
+.up-detail .avatar .check{
+  width: 24px;
+  vertical-align: text-bottom;
+}
+.up-detail .up-prop{
+  padding-bottom: 40px;
+  border-bottom: 1px dashed #afafaf;
+}
+.up-detail .up-prop .form-group{
+  margin-bottom: 6px;
+}
+.up-detail .up-prop .form-group .col-md-8{
+  padding-right: 16%;
+}
+.up-detail .up-prop .form-group .Phone{
+  padding-right: 36%;
+}
+.up-detail .up-prop .form-control{
+  border: none;
+  border-bottom: 1px solid #d5d5d5;
+  margin-bottom: 0;
+}
+.up-detail .up-prop .form-group .col-form-label, .up-detail .upe-prop .form-group .col-form-label{
+  font-size: 16px;
+}
+.up-detail .up-prop .up-prop-left{
+  padding: 0 10%;
+}
+.up-detail .up-prop .up-prop-left .form-control{
+  text-align: center;
+}
+.up-detail .honored_member, .up-detail .up-notes{
+  padding: 42px 53px;
+  display: flex;
+  flex-wrap: inherit;
+  border-bottom: 1px dashed #afafaf;
+}
+.up-detail .honored_member_detail{
+  margin-left: 16px;
+}
+.up-detail .honored_member_detail p{
+  margin-bottom: 0;
+}
+.up-detail .honored_member_detail .hm-title{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.up-detail .honored_member_detail .hm-detail, .up-detail .up-notes .notes-detail{
+  font-size: 12px;
+  padding-top: 4px;
+  color: #a4a4a4;
+}
+.up-detail .up-notes{
+  padding: 42px 53px;
+  display: block;
+  border-bottom: 1px dashed #afafaf;
+}
+.up-detail .up-notes p{
+  margin-bottom: 0; 
+}
+.up-detail .up-editprofilebtn{
+  justify-content: center;
+  padding: 46px 0;
+}
+.up-detail .up-editprofilebtn .button.neutral{
+  padding: 14px 49.6px;
+}
+.up-detail .up-groups{
+  display: block;
+  margin-bottom: 36px;
+}
+.up-detail .up-groups .card-header .title, .up-detail .up-bottomCard .col-md-6 .card-header .title{
+  line-height: 60px;
+}
+.up-detail .up-groups .card-header .title img, .up-detail .up-bottomCard .col-md-6 .card-header .title img{
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+.up-detail .up-groups .card-block{
+  padding: 0 20px;
+}
+.up-detail .up-groups .up-groupsDetail{
+  width: 88%;
+  margin: 0 auto;
+  padding: 41px 0;
+}
+.up-detail .up-groups .up-groupsDetail ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin-bottom: 0;
+}
+.up-detail .up-groups .up-groupsDetail ul li{
+  width: 25%;
+}
+.up-detail .up-groups .up-groupsDetail ul li p{
+  margin-bottom: 0;  
+}
+.up-detail .up-groups .up-groupsDetail ul li .name{
+  font-weight: bold;
+  font-size: 18px;
+}
+.up-detail .up-groups .up-groupsDetail ul li .role{
+  font-size: 14px;
+}
+.up-detail .up-groups .up-groupsDetail .groups-item{
+  width: 70%;
+  margin: 0 auto;
+}
+.up-detail .up-groups .swiper-pagination{
+  bottom: 6px;
+}
+.up-detail .up-bottomCard .up-gifts{
+  padding-left: 0;
+}
+.up-detail .up-bottomCard .up-prayer{
+  padding-right: 0;
+}
+.up-detail .up-bottomCard .col-md-6 .card-header{
+  line-height: 60px;
+}
+.up-detail .up-bottomCard .col-md-6 .card-block{
+  height: 130px;
+  padding: 0 10px;
+}
+.up-detail .up-bottomCard .up-giftsInfo{
+  display: flex;
+  padding: 24px 0;
+  width: 78%;
+  margin: 0 auto;
+}
+.up-detail .up-bottomCard .up-giftsInfo .up-giftsName{
+  margin-bottom: 0;
+  line-height: 82px;
+  font-size: 18px;
+}
+.up-detail .up-bottomCard .up-giftsInfo .price{
+  margin-left: auto;
+}
+.up-detail .up-bottomCard .up-prayerItem{
+  padding: 20px 0 44px;
+  width: 58%;
+  margin: 0 auto;
+}
+.up-detail .up-bottomCard .up-prayerItem p{
+  margin-bottom: 0;
+}
+.up-detail .up-bottomCard .up-prayerItem .up-Pdetail{
+  font-size: 14px;
+}
+
+/* UserProfileEdit */
+.up-detail .upe-prop .form-group .form-control, .up-detail .upe-prop .form-group .col-form-label{
+  height: 34px;
+}
+.up-detail .upe-prop .form-group .form-control{
+  font-size: 14px;
+  border-radius: 0;
+}
+.up-detail .upe-prop .upe-prop-left{
+  padding-left: 8%;
+}
+.up-detail .upe-prop .upe-prop-left .form-group{
+  margin-bottom: 8px;
+}
+.up-detail .upe-prop .upe-prop-left .form-group:last-child{
+  margin-bottom: 0px;
+}
+.up-detail .upe-prop .upe-prop-right{
+  margin-top: auto;
+}
+.up-detail .upe-prop .upe-prop-right label{
+  font-weight: bold;
+}
+.up-detail .upe-prop .upe-prop-right .upe-state{
+  width: 100%;
+  margin-bottom: 8px;
+}
+.up-detail .upe-prop .upe-prop-right .upe-state .dropdown-menu{
+  margin-top: 0;
+}
+.up-detail .upe-prop .upe-prop-right .upe-state .dropdown-item{
+  margin-bottom: 0;
+}
+.up-detail .upe-prop .upe-prop-right .upe-stateBtn{
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  height: 34px;  
+  border-radius: 0;
+  padding-left: 12px;
+  color: #464a4c;
+}
+.up-detail .upe-prop .upe-prop-right .upe-stateBtn::after{
+  display: none;
+}
+.up-detail .upe-prop .upe-prop-right .upe-stateBtn .entypo-down-open-big::before{
+  top: 4px; 
+}
+.up-detail .upe-prop .upe-prop-right .form-group{
+  margin-bottom: 0;
+}
+.up-detail .upe-prop .upe-prop-right .form-control{
+  margin-bottom: 8px;
+}
+.up-detail .upe-prop .upe-prop-right .form-control::placeholder{
+  font-style: inherit;
+  font-size: 14px;
+}
+.up-detail .upe-prop .upe-prop-right .form-control:last-child{
+  margin-bottom: 0px;
+}
+.up-detail .upe-prop-bottom{
+  margin-top: 60px;
+  padding-left: 71.797px;
+}
+.up-detail .upe-b-title{
+  display: flex;
+}
+.up-detail .upe-b-title .upe-b-ques p{
+  float: left;
+  padding-right: 8px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.up-detail .upe-b-title .upe-b-check{
+  display: flex;
+  margin-left: auto;
+}
+.up-detail .upe-b-check .upe-b-opt-yes{
+  margin-right: 60px;
+}
+.up-detail .upe-b-check label{
+  text-transform: uppercase;
+}
+.up-detail .upe-b-check [type="radio"]:checked + label:before, .up-detail .upe-b-check [type="radio"]:not(:checked) + label:before{
+  border: 2px solid #ff9f78;
+}
+.up-detail .upe-b-check [type="radio"]:checked + label:after, .up-detail .upe-b-check [type="radio"]:not(:checked) + label:after{
+  width: 12px;
+  height: 12px;
+  top: 5px;
+  left: 5px;
+}
+.up-detail .upe-b-info{
+  margin-top: 30px;
+}
+.up-detail .upe-b-info .form-control{
+  border-radius: 0;
+}
+.up-detail .upe-b-info .form-group textarea{
+  height: 136px;
+  font-size: 13px;
+  padding: 20px;
+  color: #a4a4a4;
+}
+.up-detail .upe-b-info #upe-notes{
+  margin: 0 15px;  
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.15);
+}
+.up-detail .upe-b-info .upe-b-notes{
+  margin-top: 28px;
+}
+.up-detail .upe-b-info .upe-b-notes .col-form-label{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.up-detail .upe-b-info .upe-b-savebtn{
+  text-align: center;
+  margin-top: 46px;
+}
+/* UserProfile Modal */
+.um-vault-modal{
+  padding: 0 30px;
+}
+.um-vault-modal p{
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+.um-vault-modal .button.border--red{
+  width: 130px;
+  height: 58px;
+  padding: 0;
+}
+.um-vault-modal .um-nobtn{
+  margin-left: 64px;
+}
+@media screen and (max-width: 1387px) and (min-width: 991px){
+  .up-detail .up-prop .form-group .emailhome{
+    padding-right: 0;
+  }
+  .up-detail .up-prop .form-group .Phone .form-control{
+    height: 100%;
+  }
+  .up-detail .up-prop .homephone .form-control{
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1314px){
+  .up-detail .up-bottomCard .col-md-6 .card-block, .up-detail .up-bottomCard .col-md-6 .card-block .swiper-container{
+    height: 152px;
+  }
+}
+@media screen and (max-width: 1297px){
+  .up-detail .upe-prop .form-group .col-form-label{
+    height: auto;
+  }
+  .up-detail .upe-prop .form-group .form-control{
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1280px){
+  .up-detail .up-prop .up-prop-left {
+    padding: 0 0 0 5%;
+  }
+}
+@media screen and (max-width: 1296px) and (min-width: 991px){
+  .up-detail .up-prop .form-group .cellphone .form-control{
+    line-height: 40px;
+  }
+  .up-detail .up-prop .form-group .Phone{
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 1111px) and (min-width: 1090px){
+  .up-prop-right .homeaddr .col-form-label{
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 991px){
+  .up-prop-right .emailaddr .form-control{
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 993px) and (min-width: 991px){
+  .up-detail .up-prop-right .homephone .col-form-label{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 991px){
+  .up-detail .up-prop{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .up-detail .up-prop .up-prop-left, .up-detail .up-prop .up-prop-right{
+    padding: 0;
+  }
+  .up-detail .up-prop .form-group .col-md-8{
+    padding-right: 0;
+  }
+  .up-detail .up-prop .form-control{
+    text-align: center;
+  }
+  .up-detail .honored_member{
+    padding-left: 0;
+  }
+  .up-detail .upe-prop .upe-prop-left, .up-detail .upe-prop .upe-prop-right{
+    padding-left: 0;
+  }
+  .up-detail .upe-prop .upe-prop-left{
+    margin-bottom: 10px;
+  }
+  .upe-prop{
+    margin: 0;
+  }
+  .up-detail .upe-prop-bottom {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 965px) and (min-width: 768px), (max-width: 380px){
+  .up-detail .up-bottomCard .col-md-6 .card-block, .up-detail .up-bottomCard .col-md-6 .card-block .swiper-container{
+    height: 176px;
+  }
+  .up-detail .up-bottomCard .up-giftsInfo{
+    width: 70%;
+    display: block;
+    text-align: center;
+  }
+  .up-detail .up-bottomCard .up-giftsInfo .up-giftsName{
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 900px){
+  .up-detail .up-groups .up-groupsDetail ul{
+    display: block;
+  }
+  .up-detail .up-groups .up-groupsDetail ul li{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 910px) and (min-width: 768px){
+  .up-detail .upe-b-info .col-form-label{
+    font-size: 14px
+  }
+}
+@media screen and (max-width: 867px) and (min-width: 768px){
+  .up-detail .up-bottomCard .col-md-6 .card-block, .up-detail .up-bottomCard .col-md-6 .card-block .swiper-container{
+    height: 198px;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 768px){
+  .up-prop-right .homephone .Phone p{
+    line-height: 40px;  
+  }
+}
+@media screen and (max-width: 800px){
+  .up-detail .upe-b-check .upe-b-opt-yes{
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 768px){
+  .up-detail .up-prop .form-control, .up-detail .up-prop .up-prop-left .form-control{
+    text-align: left;
+  }
+  .up-detail .honored_member{
+    display: block;
+    padding-right: 0;
+  }
+  .honored_member_logo{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .up-detail .honored_member_detail{
+    margin-left: 0;
+  }
+  .up-detail .up-notes{
+    padding: 42px 0;
+  }
+  .up-detail .honored_member, .up-detail .up-notes{
+    margin: 0;
+    text-align: center;
+  }
+  .up-detail{
+    padding: 32px 80px 76px;
+  }  
+}
+
+@media screen and (max-width: 767px){
+  .up-detail .up-bottomCard .up-gifts{
+    padding-right: 0;
+  }
+  .up-detail .up-bottomCard .up-prayer{
+    padding-left: 0;
+  }
+  .up-detail .up-groups, .up-detail .up-bottomCard .up-gifts{
+    margin-bottom: 16px;
+  }
+  .up-detail .up-bottomCard .up-prayerItem, .up-detail .up-bottomCard .up-giftsInfo{
+    width: 56%;
+  }
+  .up-detail .upe-b-title{
+    display: block;
+  }
+  .up-detail .upe-b-title .upe-b-ques{    
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .up-detail .upe-b-title .upe-b-check{
+    justify-content: center;
+  }
+  .up-detail .upe-b-title .upe-b-ques p{
+    float: none;
+  }
+}
+@media screen and (max-width: 660px){
+  .up-detail .up-bottomCard .up-prayerItem, .up-detail .up-bottomCard .up-giftsInfo{
+    width: 72%;
+  }
+}
+@media screen and (max-width: 585px){
+  .up-detail .upe-b-title .upe-b-ques p{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 580px){
+  .up-detail .back button, .up-detail .unsubscribe p{
+    font-size: 12px;
+  }
+  .up-detail .unsubscribe{
+    top: 35px;
+    font-weight: inherit;
+  }
+}
+@media screen and (max-width: 570px){
+  .up-detail{
+    padding: 32px 30px 76px;
+  }
+}
+@media screen and (max-width: 430px){
+  .up-detail .unsubscribe{
+    right: 10px;
+    letter-spacing: 0;
+  }
+  .up-detail .back{
+    left: 20px;
+    letter-spacing: 0;
+  }
+  .up-detail .up-editprofilebtn .button.neutral{
+    padding: 10px 22px;
+    font-size: 12px;
+  }
+  .up-detail .upe-b-info .upe-b-savebtn .button{
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 422px){
+  .um-vault-modal .button.border--red{
+    height: 50px;
+    display: block;
+    width: 100%;
+  }
+  .um-vault-modal .button.border--red:last-child{
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}

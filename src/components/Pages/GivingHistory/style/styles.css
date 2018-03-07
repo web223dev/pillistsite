@@ -1,0 +1,401 @@
+.giving-history .card-header .title, .givinghistoryDetail .card-header .title{
+  padding: 16.5px;
+}
+.givinghistoryDetail .back{
+  top: 120px;
+}
+.g-title-buttons .g-edit-gift{
+  right: 210px;
+  top: 12px;
+}
+.g-title-buttons .g-export-excel{
+  right: 20px;
+  top: 12px;
+}
+/* Giving Calendar */
+.giving-history .g-selectDate, .giving-history .g-from, .giving-history .g-to{
+  display: flex;
+}
+.giving-history .datepicker{
+  width: 184px; 
+  height: 36px;
+  background: #dedede;
+  border-radius: 30px;
+}
+.giving-history .g-selectDate{
+  margin-bottom: 34px;
+}
+.g-selectDate .g-to{
+  padding-left: 18px;
+}
+.g-main-history, .g-main-detail-history{
+  padding-bottom: 42px;
+}
+.g-selectDate .datepicker .react-calendar .react-calendar__month-view.div, .g-selectDate .datepicker .react-calendar .react-calendar__month-view__days{
+  display: block !important;
+}
+.g-selectDate .datepicker .react-calendar button{
+  width: 14.28%;
+}
+
+.g-selectDate .datepicker .react-date-picker{
+  width: 100%;
+  height: 100%;
+}
+.g-selectDate .datepicker .react-date-picker__button{
+  width: 100%;
+  background: #dedede;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+}
+.g-selectDate .datepicker .react-date-picker__button .react-date-picker__clear-button{
+  display: none;
+}
+.g-selectDate .datepicker .react-date-picker__button .react-date-picker__button__input{
+  padding-left: 18px;
+}
+.g-selectDate .datepicker .react-date-picker__button .react-date-picker__button__input .react-date-picker__button__input__year{
+  width: 40px !important;
+}
+.g-selectDate .datepicker .react-date-picker__button .react-date-picker__button__input input{
+  color: #fff;
+}
+.g-selectDate .datepicker .react-date-picker__calendar-button{
+  width: 25%;
+  background: #c4c4c4;
+  color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.g-selectDate .datepicker .react-date-picker__calendar-button svg{
+  margin: 0 auto;
+}
+.g-selectDate .datepicker .react-date-picker__calendar{
+  z-index: 1;
+}
+.g-selectDate p{
+  margin-bottom: 0;
+  line-height: 33px;
+  padding-right: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Giving Calendar--end */
+.g-main-table .g-total-amount, .g-main-table .g-action, .g-date, .g-givingType, .g-amount{  
+  padding-top: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.g-main-table .g-action a{
+  text-decoration: underline;
+  color: #47cdd9;
+}
+.g-main-table table tbody tr td:first-child{
+  padding-left: 32px;
+}
+.g-main-table table tbody tr td:first-child .userStar{
+  left: 56px;
+}
+.g-giftOption .g-gift-top-wrapper{
+  display: flex;
+  margin-bottom: 34px; 
+}
+.g-giftOption .g-gift-top-left{
+  display: flex;
+  margin-left: auto;
+}
+.g-giftOption .g-gift-top-left p{
+  margin-bottom: 0;
+  padding-top: 6px;
+  padding-right: 10px;
+  margin-left: auto;
+}
+.g-giftOption .g-gift-top-right{
+  text-align: right;
+  padding-left: 20px;
+}
+.g-giftOption .g-gift-top-right button{
+  width: 108px;
+  height: 36px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background: #aeaeae;
+  color: #fff;
+}
+.g-giftOption .g-gift-main-wrapper{
+  border: 2px solid #ebebeb;
+  border-radius: 30px;
+}
+.g-giftOption .g-gift-main-wrapper .g-gift-main-title{
+  height: 66px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 2px solid #ebebeb;
+}
+.g-giftOption .g-gift-main-wrapper .g-gift-main-title p{
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c1c1c1;
+  margin-bottom: 0;
+}
+.g-giftOption .g-gift-main-wrapper .g-gift-main ul{
+  padding: 0 36px 28px 20px;
+  margin-bottom: 0;
+}
+.g-giftOption .g-gift-main-wrapper .g-gift-main ul li{
+  list-style: none;
+  padding-top: 10px;
+  color: #4d4d4d;
+}
+.g-giftOption .g-gift-main-wrapper .g-gift-main ul li .g-gift-main-detail span{
+  text-decoration: underline;
+}
+.g-giftOption .g-gift-bottom{
+  height: 82%;
+  border-radius: 30px;  
+  margin-top: 34px;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-top{
+  height: 66px;
+  border-bottom: 2px solid #ebebeb;
+  background: #f5f5f5;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-top p{
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c1c1c1;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-main{
+  background: #f5f5f5;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-main ul{
+  padding: 0 36px 0 20px;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-main ul li{
+  list-style: none;
+  padding: 10px 0;
+  color: #4d4d4d;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-main ul li .g-showgiving-detail, .g-giftOption .g-gift-main-wrapper .g-gift-main ul li .g-gift-main-detail{
+  display: flex;
+  justify-content: space-between;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-main ul li .g-showgiving-detail p, .g-giftOption .g-gift-main-wrapper .g-gift-main ul li .g-gift-main-detail p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-bottom{
+  height: 62px;
+  background: #aeaeae;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.g-giftOption .g-gift-bottom .g-gift-bottom-bottom span{
+  line-height: 3.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media screen and (max-width: 1186px){
+  .g-main-table table tbody tr .g-date{
+    min-width: 156px;
+  }
+  .g-main-table .g-givingType{
+    min-width: 336px;
+  }
+  .g-main-table .g-amount{
+    min-width: 104px;
+  }
+  .g-main-detail-history .g-main-history-table, .g-main-detail-history .g-giftOption{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .g-main-detail-history .g-main-history-table{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1112px){
+  .g-main-history .g-main-history-table, .g-main-history .g-giftOption{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }  
+  .g-main-history .g-main-history-table{
+    margin-bottom: 20px;
+  }  
+}
+
+@media screen and (max-width: 1110px){
+  .g-main-table table tbody tr .user{
+    min-width: 208px;
+  }  
+  .g-main-table .g-total-amount{
+    min-width: 165px;
+  }
+  .g-main-table .g-action{
+    min-width: 178px;
+  }  
+}
+
+@media screen and (max-width: 776px){
+  .giving-history .card-header{
+    height: auto;
+  }
+  .g-title-buttons{
+    padding: 0 16.5px;
+    margin-bottom: 10px;
+  }
+  .g-title-buttons button{
+    position: inherit;
+    width: 100%;
+  }
+  .giving-history .g-title-buttons .g-edit-gift{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: -170px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .giving-history .g-selectDate{
+    display: block;
+  }
+  .g-selectDate .g-from{
+    margin-bottom: 10px;
+  }
+  .g-selectDate .g-to{
+    padding-left: 0;
+  }
+  .g-selectDate p{
+    width: 50px;
+  }
+  .giving-history .datepicker{
+    width: 100%;
+  }
+  .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: 12px;
+  }
+}
+@media screen and (max-width: 580px){
+  .g-main-detail-history .g-gift-top-wrapper{
+    display: block;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left{
+    margin-bottom: 10px;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left p{
+    margin-left: 0;
+    width: 42%;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left .gh-opt{
+    width: 60% !important;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-right{
+    text-align: left;
+    padding-left: 0;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-right button, .g-main-detail-history .g-giftOption .g-gift-top-left .btn-group .dropdown-comment{
+    width: 100%;
+  }  
+}
+@media screen and (max-width: 542px){
+  .g-main-history .g-giftOption .g-gift-top-wrapper{
+    display: block;
+  }
+  .g-main-history .g-giftOption .g-gift-top-left{
+    margin-bottom: 10px;
+  }
+  .g-main-history .g-giftOption .g-gift-top-left p{
+    margin-left: 0;
+    width: 30%;
+  }
+  .g-main-history .g-giftOption .g-gift-top-left .gh-opt{
+    width: 70% !important;
+  }
+  .g-main-history .g-giftOption .g-gift-top-right{
+    text-align: left;
+    padding-left: 0;
+  }
+  .g-main-history .g-giftOption .g-gift-top-right button, .g-main-history .g-giftOption .g-gift-top-left .btn-group .dropdown-comment{
+    width: 100%;
+  }  
+}
+@media screen and (max-width: 504px){
+  .g-giftOption .g-gift-bottom .g-gift-bottom-top p{
+    font-size: 14px;
+  }
+  .g-selectDate .datepicker .react-date-picker__calendar, .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: -48px;
+  }
+}
+@media screen and (max-width: 418px){
+  .g-selectDate .datepicker .react-date-picker__calendar, .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: -26px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 402px){
+  .g-main-detail-history .g-giftOption .g-gift-top-left p{
+    font-size: 14px;    
+  }
+}
+@media screen and (max-width: 386px){
+  .g-giftOption .g-gift-top-left p{
+    width: 46%;
+  }
+  .g-selectDate .datepicker .react-date-picker__calendar, .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: -44px;
+  }
+}
+@media screen and (max-width: 372px){
+  .g-giftOption .g-gift-bottom .g-gift-bottom-top p{
+    font-size: 11px;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left p{
+    width: 22%;
+  }
+  .g-main-history .g-giftOption .g-gift-top-left .gh-opt{
+    width: 78% !important;
+    margin-top: 10px;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left .gh-opt{
+    width: 78% !important;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-top-left p{
+    font-size: 12px; 
+    line-height: 14px;   
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .g-giftOption .g-gift-top-left .btn-group .dropdown-comment{
+    line-height: 24px;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-main-wrapper .g-gift-main ul{
+    padding: 0 20px 20px;
+  }
+  .g-main-detail-history .g-giftOption .g-gift-main-wrapper .g-gift-main ul li, .g-main-detail-history .g-giftOption .g-gift-main-wrapper .g-gift-main-title p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 360px){
+  .g-selectDate .datepicker .react-date-picker__calendar, .g-selectDate .g-to .datepicker .react-date-picker__calendar{
+    left: -64px;
+    width: 284px;
+  }
+}

@@ -1,0 +1,77 @@
+.settings-tabs .nav-tabs .nav-item{
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.settings-tabs .nav-tabs .nav-item .nav-link{
+  height: 60px;
+  line-height: 42px;
+  background-color: #ededed;
+  color: #3f3f3f;
+  border: none;
+  border-right: 2px solid #e0e0e0;
+  border-radius: 0;
+}
+.settings-tabs .nav-tabs .nav-item:first-child .nav-link{
+  border-top-left-radius: 30px;
+}
+.settings-tabs .nav-tabs .nav-item:last-child .nav-link{
+  border-top-right-radius: 30px;
+  border: none;
+}
+.settings-tabs .nav-tabs .nav-item.show .nav-link, .settings-tabs .nav-tabs .nav-link.active{
+  background: #c4c4c4;
+  color: #fff;
+}
+.settings-tabs .tab-content{
+  background-color: #fff;
+}
+
+@media screen and (max-width: 884px){
+  .settings-tabs .nav-tabs .nav-item .servicetimes, .settings-tabs .nav-tabs .nav-item .gift_settings{
+    line-height: 20px;
+    padding-top: 12px;
+  }
+}
+@media screen and (max-width: 676px){
+  .settings-tabs .nav-tabs .nav-item .nav-link{
+    font-size: 14px;
+  }
+  .settings-tabs #servicetimes-tab, .settings-tabs #giftsettings-tab{
+    line-height: 16px;
+    padding-top: 16px;
+  }
+}
+@media screen and (max-width: 616px){
+  .settings-tabs .nav-tabs .nav-item .nav-link{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 550px){
+  .settings-tabs .nav-tabs{
+    display: block;
+  }
+  .settings-tabs .nav-tabs .nav-item{
+    width: 100%;
+  }
+  .settings-tabs .nav-tabs .nav-item .nav-link{
+    font-size: 16px;
+    border-right: 0;
+    height: 50px;
+    line-height: 34px;
+    border-bottom: 3px solid #e0e0e0;
+  }
+  .settings-tabs .nav-tabs .nav-item:last-child .nav-link{
+    border-top-right-radius: 0;
+    border-bottom: none;
+  }
+  .settings-tabs .nav-tabs .nav-item:first-child .nav-link{
+    border-top-right-radius: 30px;
+  }
+  .settings-tabs #servicetimes-tab, .settings-tabs #giftsettings-tab{    
+    line-height: 34px;
+    padding-top: 8px;
+  }
+}

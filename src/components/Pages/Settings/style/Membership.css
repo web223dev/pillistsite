@@ -1,0 +1,324 @@
+.entypo-down-open-big::before {
+  font-family: 'entypo', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  color: #ff9871;
+}
+
+.membership_wrapper{
+  padding: 90px 90px 28px
+}
+.membership_detail ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.membership_detail ul li{
+  display: flex;
+  height: 64px;
+  line-height: 64px;
+  border-top: 2px solid #f2f2f2;
+}
+.membership_detail ul li:last-of-type{
+  border-bottom: 2px solid #f2f2f2;
+}
+.membership_detail ul li p{
+  text-align: left;
+  width: 100%;  
+  margin-bottom: 0;
+}
+.membership_detail ul li p:first-of-type{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.membership_detail ul li p:last-of-type{
+  text-align: right;
+}
+.ms-btn{
+  text-align: center;
+  margin-top: 42px;  
+}
+.ms-btn button{
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 4em;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  width: 178px;
+  height: 38px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.ms-btn .ms-edit{
+  background: linear-gradient(180deg,#feaf78 0,#fe8563 0,#fc8362 0,#feaf78 0,#f57754);
+  margin-right: 18px;
+}
+.ms-btn .ms-cancel{
+  background-color: transparent;
+  border: 3px solid #fe9168;
+  color: #fe9168;
+}
+.ms-btn p{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.ms-btn span{  
+  font-size: 14px;
+  color: #fe9369;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.ms-cplan-modal{
+  padding: 0 50px;
+}
+.ms-cplan-modal p{
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-bottom: 30px;
+}
+.ms-cplan-modal .button{
+  width: 132px;
+  padding: 13px 0 !important;
+}
+.ms-cplan-modal .button:last-of-type{
+  margin-left: 60px;
+}
+
+/* Membership Edit */
+.me-payment .form-control{
+ height: 50px !important; 
+ border-radius: 0;
+}
+.me-payment .form-group label, .me-payment .title{
+  font-weight: bold;
+  font-size: 18px;
+}
+.me-payment .title{
+  margin-bottom: 36px;
+}
+.me-payment .card-header .title{
+  line-height: 60px;
+}
+.me-payment .card-header .title p{
+  margin-left: 48px;
+}
+.me-payment .card-block{
+  padding: 52px 90px;
+}
+.me-payment .card-choose ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.me-payment .card-choose ul li{
+  border-top: 2px solid #f2f2f2;
+}
+.me-payment .card-choose ul li:first-child{
+  height: 64px;
+  line-height: 64px;  
+  display: flex;
+}
+.me-payment .card-choose ul li:first-child p{
+  width: 100%;
+  text-align: right;
+}
+.me-payment .card-choose .currentCard-opt{
+  width: 100%;
+}
+.me-payment .card-choose ul li:last-child{
+  height: 100px;
+  line-height: 130px;  
+  border-bottom: 2px solid #f2f2f2;  
+}
+.me-payment .card-choose li label{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.me-payment .card-detail{
+  margin-top: 40px;
+}
+.me-payment .card-detail .btn-group{
+  width: 100%; 
+}
+.me-payment .card-detail .btn-group .btn{
+  width: 100%;
+  text-align: left;
+  height: 50px;
+  font-style: italic;
+  color: #3d3d3d;
+  border-radius: 0;
+}
+.me-payment .card-detail .btn-group .btn::after{
+  display: none;
+  text-align: right;
+}
+.me-payment .ms-btn p{
+  margin-top: 22px;
+}
+.me-payment .ms-btn span{
+  text-transform: inherit;
+}
+.me-payment .securityCode{
+  line-height: 50px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  color: #fe9169;
+}
+/* -- radio Button style */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #3d3d3d;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #c2c2c2;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fe8462;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 768px){
+  /* MemberShip Edit */
+  .me-payment #firstname{
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 700px){
+  .me-payment .card-block{
+    padding: 52px 40px;
+  }
+}
+@media screen and (max-width: 690px){
+  .membership_wrapper {
+    padding: 90px 40px 28px;
+  }
+}
+@media screen and (max-width: 674px){
+  /* MemberShip Edit */
+  .ms-btn .ms-edit{
+    margin-right: 0;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .ms-btn .ms-cancel{
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 598px){
+  .me-payment .card-choose ul li:first-child{
+    display: block;
+    height: auto;
+    line-height: 54px;
+  }
+  .me-payment .card-choose ul li:first-child p{
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 590px){
+  .membership_detail ul li .currentpm{
+    line-height: 20px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 549px) and (min-width: 481px), (max-width: 465px){
+  .membership_detail ul li .subPackage{
+    line-height: 20px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 556px){
+  .ms-btn .ms-edit{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .ms-btn .mse-edit{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 481px), (max-width: 416px) and (min-width: 380px),(max-width: 341px){
+  .membership_detail ul li .autoRD{
+    line-height: 20px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 480px){
+  .me-payment .card-block{
+    padding: 52px 20px;
+  }
+  .me-payment .form-group label, .me-payment .title{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 463px){
+  .ms-cplan-yes{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .ms-cplan-modal .button:last-of-type{
+    margin-left: 0;
+  }
+  .ms-cplan-modal .button{
+    padding: 10px 0 !important;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px){
+  .membership_detail ul li p{
+    font-size: 12px;
+  }
+  .ms-btn .mse-edit{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}

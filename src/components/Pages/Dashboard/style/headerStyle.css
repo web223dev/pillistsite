@@ -1,0 +1,130 @@
+.d-header{
+  background: #212121;
+  height: 60px;
+}
+.d-subheader{
+  background: #ffae8d;
+  height: 52px;
+}
+.d-header, .d-subheader{
+  padding: 0 50px;
+}
+.d-info{
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  margin-top: 20px;
+}
+.d-logo{
+  text-align: center;
+  margin-top: 10px;
+}
+.d-usermenu{
+  margin-top: 9px;
+  text-align: right;
+  float: right;
+}
+.d-usermenu img{
+  margin-top: 4px;
+  cursor: pointer;
+}
+.name--user{
+  display: inline-block;
+  color: #fff;
+  vertical-align: top;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-top: 8px;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+}
+.name--user .arrow{
+  font-size: 26px;
+  color: #3fa7b1;
+}
+.d-sub-left{
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: flex;
+}
+.d-sub-left .name--church{
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 2.5px;
+  vertical-align: middle;  
+  margin: 3px 3px 0;
+}
+.d-sub-left .wrap--icon--notification{
+  position: relative;
+}
+.d-sub-left .wrap--icon--notification .icon--notification{
+  color: #fff;
+  font-size: 32px;
+}
+.d-sub-left .wrap--icon--notification span{
+  width: 13px;
+  height: 13px;
+  border-radius: 4em;
+  background-color: #47cdd9;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  right: 1px;
+  top: 5px;
+}
+.d-sub-right{
+  cursor: pointer;
+  margin-top: 6px;
+  float: right;
+  margin-right: 3px;
+}
+.d-sub-right img{
+  vertical-align: top;
+  margin-top: 4px;
+}
+.d-sub-right p{
+  letter-spacing: 1.6px;
+  color: #fff;
+  margin-top: 8px;
+  margin-left: 7px;
+  margin: 8px 0 0 7px;
+  font-size: 18px;
+  display: inline-block;
+}
+.d-sub-right p svg{
+  font-size: 27px;
+  margin-top: -3px;
+}
+
+@media screen and (max-width:764px){
+  .d-header, .d-subheader{
+    padding: 0 20px;
+  }
+  .d-info{
+    display: none;
+  }
+  .d-logo{
+    text-align: left;
+  }
+}
+@media screen and (max-width:493px){
+  .d-sub-right p span{
+    display: none;
+  }
+}
+@media screen and (max-width:436px){
+  .name--user span{
+    display: none;
+  }  
+  .d-sub-left .name--church{
+    font-size: 12px;
+    line-height: 26px;    
+  }
+}
+@media screen and (max-width:370px){
+  .d-sub-left .name--church{
+    letter-spacing: 0;
+  }
+}

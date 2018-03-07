@@ -1,0 +1,114 @@
+.um-table-card .btn-red{  
+  right: 14px;  
+}
+.um-table-card .card-header .title{
+  padding: 1.094rem 1.25rem;
+}
+.um-table-card .n-main-table .userStar{
+  left: -30px;
+  top: 6px;
+}
+.um-imgWrapper{
+  position: relative;
+}
+.um-table-card .um-table-subscribe{
+  display: flex;
+  justify-content: center;
+  text-align: center;  
+}
+.um-table-card .um-table-email, .um-table-card .um-table-group, .um-table-card .um-table-member{
+  text-align: center;
+}
+.um-table-card .um-table-checkbox{
+  margin: 0;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+}
+.um-table-card .table-email{
+  text-align: center;
+}
+.um-table-card .username{
+  padding-left: 11px;
+}
+.um-table-card tbody tr td:first-child{
+  width: 32%;
+}
+.um-vault-modal{
+  padding: 0 70px;
+}
+.um-vault-modal p{
+  text-align: center;
+  margin-bottom: 36px;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+.um-vault-modal .button{
+  width: 132px;
+  padding: 13px 0 !important;
+}
+.um-vault-modal .button:last-of-type{
+  margin-left: 60px;
+}
+
+.um-table-card .search-func .search-box .input-group{
+  width: 304px;
+}
+
+@media screen and (max-width: 992px){
+  .um-table-card .um-table-subscribe{
+    justify-content: flex-end;
+    padding-right: 26px;
+  }  
+  .um-table-card .search-func .filter-box .filter-group, .um-table-card .search-func .filter-box .filter, .um-table-card .search-func .search-box .input-group, .um-table-card .btn-group .dropdown-comment{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 896px){
+  .um-table-card .um-table-subscribe{    
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 862px){
+  .um-table-card .n-main-table{
+    display: block;
+    overflow-x: auto;
+  }
+  .um-table-card .um-table-subscribe-wrap{
+    min-width: 223px;
+  }
+  .um-table-card .um-table-email{
+    min-width: 226px;
+  }
+  .um-table-card .um-table-group{
+    min-width: 111px;
+  }
+  .um-table-card .um-table-member{
+    min-width: 139px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .um-table-card .search-box{
+    margin-bottom: 10px;
+  }
+  .um-table-card .search-func .filter-box .filter-group{
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 544px){
+  .um-vault-modal .button{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .um-vault-modal .button:last-of-type{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 422px){
+  .um-vault-modal {
+    padding: 0 40px;
+  }
+}

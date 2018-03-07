@@ -1,0 +1,100 @@
+/* Login Page */
+
+.loginform-wrapper, .forgotpsw-wrapper{
+  background: linear-gradient(180deg,#feb37d 0,#feb37d 0,#ff8867 51%,#feb37d);
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.loginform, .forgotpswform{
+  width: 770px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50px;
+  margin: auto;
+  position: relative;
+  top: 81px;
+  padding: 20px 220px;
+  margin-bottom: 30px;
+}
+.loginform{  
+  height: 416px;
+}
+.forgotpswform{
+  height: 332px;
+}
+.loginIcon, .resetPswIcon{
+  margin-top: 14px;
+}
+.loginIcon img, .resetPswIcon img{
+  margin-bottom: 6px;
+}
+.loginIcon p, .resetPswIcon p{
+  color: #f08162;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.loginInput, .resetPswInput{
+  margin-bottom: 52px;
+}
+.loginInput .emailAddr, .resetPswInput .emailAddr{
+  margin: 0;
+}
+.loginbtn .forgotLink{
+  margin-top: 12px;
+}
+.loginbtn .submit-btn{
+  font-size: 18px;
+  width: 200px;
+  height: 55px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.loginbtn .forgotLink a{
+  color: #ff896a;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.closeIcon{
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  cursor: pointer;
+}
+.closeIcon img{
+  height: 30px;
+}
+.back-icon {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 30px;
+  color: #f08162;
+  padding: 0 13px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:810px){
+  .loginform-wrapper, .forgotpsw-wrapper{
+    padding: 0 20px;
+  }
+  .loginform, .forgotpswform{
+    width: 100%;
+    padding: 20px 20%;
+  }
+}
+@media screen and (max-width:576px){
+  .loginform-wrapper, .forgotpsw-wrapper{
+    padding: 0 10px;
+  }
+  .loginform, .forgotpswform{
+    border-radius: 16px;
+    padding: 20px 10%;
+  }
+  .resetPswIcon p{
+    font-size: 20px;
+  }
+}

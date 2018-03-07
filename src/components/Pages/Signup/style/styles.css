@@ -1,0 +1,206 @@
+.signup .back{
+  top: 30px;
+}
+.signup_form{
+  width: 770px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: auto;
+  position: relative;
+  top: 81px;
+}
+.signup .signup_form.first{
+  height: 530px;
+}
+.signup .wrap--step-num{
+  padding-top: 22px;
+  text-align: center;
+}
+.wrap--step-num .list-num:first-child{
+  margin-left: 0px;
+}
+.wrap--step-num .list-num{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ff8361;
+  border-radius: 4em;
+  margin-left: 32px;
+  cursor: pointer;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+.wrap--step-num .list-num p{
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 2px;
+  color: #ff8361;
+}
+.wrap--step-num .title--step-num{
+  color: #ff8361;
+  font-size: 14px;
+  margin-top: 9px;
+}
+.signup_form--bottom{
+  height: 438px;
+}
+.signup_form--bottom .wrap--signup-img{
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.signup_form--bottom .signup-phone{
+  background: url(../../../Images/signup_phone.png) no-repeat 50%;
+  width: 234px;
+  height: 356px;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.signup_form--bottom .wrap-form{
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 87px;
+}
+.signup_form--bottom .wrap-form .step1{
+  padding-top: 34px;
+}
+.signup_form--bottom .wrap-form .steps_input{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  /* height: 50px !important; */
+}
+.signup_form--bottom .wrap-form .button--signup-first-step{
+  margin-top: 34px;
+  font-size: 16px;
+}
+
+/* Step 2 */
+.signup_form--bottom .step2 .su-state .su-state-select, .signup_form--bottom .step2 .su-country .su-country-select{
+  height: 33px;
+  width: 100%;
+}
+/* .signup_form--bottom .wrap-form .su-state, .signup_form--bottom .wrap-form .su-country{
+  width: 50%;
+  margin-left: 7px;
+} */
+.signup_form--bottom .wrap-form .su-state-select, .signup_form--bottom .wrap-form .su-country-select, .signup_form--bottom .su-ques-select{
+  color: rgb(135, 135, 135);
+}
+.signup_form--bottom .su-ques-select{
+  margin-top: 16px;
+}
+.signup_form--bottom .su-state-select em, .signup_form--bottom .su-country-select em, .signup_form--bottom .su-ques-select em{
+  font-style: normal;
+}
+.signup_form--bottom .wrap-form .MuiSelect-select-21, .signup_form--bottom .wrap-form .MuiSelect-select-21{
+  padding-bottom: 1px;
+}
+.signup_form--bottom .wrap-form .button--signup-second-step{
+  margin-top: 30px;
+}
+
+/* Thanks */
+.thanks{
+  text-align: center;
+  padding: 0 40px;
+}
+.thanks h3{
+  padding-top: 146px;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 24px;
+}
+.thanks .btn-red{
+  position: relative;
+  width: 200px;
+  height: 56px;
+  font-size: 16px;
+}
+.thanks p{
+  font-size: 14px;  
+}
+.thanks .thx-text{
+  margin-bottom: 86px;
+}
+.thanks p:first-child{
+  margin-bottom: 0;
+  margin-top: 28px;
+}
+
+/* Responsive */
+@media screen and (max-width:880px){
+  .signup{
+    padding: 0 50px;
+  }
+  .signup_form{
+    width: 100%;
+  }
+  .signup_form--bottom .signup-phone{
+    background: url(../../../Images/signup_phone_full.png) no-repeat 50%;
+    position: inherit;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    left: 0;
+  }
+  .signup_form--bottom .wrap-form .button.gradient, .thanks .btn-red{
+    height: 46px;
+    font-size: 14px;
+    width: 168px;
+  }
+}
+@media screen and (max-width:700px){
+  .signup .signup_form.first, .signup_form--bottom{
+    height: auto
+  }
+  .signup_form--bottom .wrap--signup-img {
+    width: 100%;
+    height: 190px;
+  }
+  .signup_form--bottom .wrap-form{
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }  
+  .signup_form--bottom .selecthalf{
+    text-align: left;
+  }
+  .signup_form--bottom .step2 .su-state .su-state-select, .signup_form--bottom .step2 .su-country .su-country-select{
+    text-align: left;
+  }
+  .signup_form--bottom .wrap-form .lastName .MuiInput-root-15{
+    width: 100%;
+  }
+  .signup_form--bottom .wrap-form .su-ques{
+    text-align: left;
+  }
+  .thanks .btn-red{
+    margin-bottom: 50px;
+  }
+  .thanks h3{
+    line-height: 40px;
+  }
+}
+@media screen and (max-width:480px){
+  .signup {
+    padding: 0 10px;
+  }
+  .signup_form--bottom .selecthalf, .signup_form--bottom .wrap-form .steps_input{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width:340px){
+  .signup_form--bottom .wrap-form .su-ques{
+    font-size: 13px !important;
+  }
+}
